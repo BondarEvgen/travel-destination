@@ -1,0 +1,127 @@
+@import "http://fonts.fontstorage.com/import/butler.css";
+
+html, body {
+	background-color: #E3E3E7;
+	position: relative;
+	height: 100%;
+	margin: 0;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.card {
+	width: 1200px;
+	height: 650px;
+	background-color: #FFF;
+	font-family: 'Butler';
+	color: #000;
+	
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+
+	-webkit-box-shadow: 0px 35px 121px -39px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 35px 121px -39px rgba(0,0,0,1);
+	box-shadow: 0px 35px 121px -39px rgba(0,0,0,1);
+
+}
+
+.card-left {
+	width: 50%;
+	/*background-color: #A7E458;*/
+	height: 100%;
+	float: left;
+	position: relative;
+}
+
+.card-right {
+	width: 50%;
+	/*background-color: #E4BA88;*/
+	height: 100%;
+	float: right;
+	background-image: url(../img/img.jpg);
+	background-repeat: no-repeat;
+	background-position: top right;
+    background-size: cover;
+}
+
+.card-content {
+	/*background-color: #8FB6CF;*/
+	width: 440px;
+	/*height: 300px;*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	text-align: center;
+	
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+}
+
+.card__title {
+	font-size: 100px;
+	text-transform: uppercase;
+	line-height: 1;
+	font-weight: 400;
+	margin: 0;
+	margin-bottom: 4px;
+	letter-spacing: 4.9px;
+}
+
+.card__subtitle {
+	font-size: 50px;
+	text-transform: uppercase;
+	line-height: 1;
+	font-weight: 400;
+	margin: 0;
+	margin-bottom: 46px;
+	letter-spacing: 2.4px;
+}
+
+.card__description {
+	color: #f36f4a;
+	font-size: 30px;
+	letter-spacing: 0.5px;
+	margin-bottom: 65px;
+}
+
+.card__button {
+	font-size: 24px;
+	color: #000;
+	line-height: 1;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	text-decoration: none;
+	
+	border: 1px solid black;
+	border-radius: 70px;	
+	
+	width: 340px;
+	height: 70px;
+	display: inline-block;
+	padding-top: 21px;
+	-webkit-transition: 0.2s ease-in;
+	   -moz-transition: 0.2s ease-in;
+	    -ms-transition: 0.2s ease-in;
+	     -o-transition: 0.2s ease-in;
+	        transition: 0.2s ease-in;
+}
+
+
+.card__button:hover {
+	background-color: #000;
+	color: #FFF;
+}
